@@ -114,6 +114,7 @@ public:
     Snake snake = Snake();
     Elma elma = Elma(snake.body);
     bool running = true;
+    int score = 0;
 
     void Draw() {
         elma.Draw();
@@ -131,6 +132,7 @@ public:
         if (Vector2Equals(snake.body[0], elma.position)) {
             elma.position = elma.GenerateRandomPos(snake.body);
             snake.addSegment = true;
+            score ++;
         }
     }
 
@@ -148,6 +150,7 @@ public:
         snake.Reset();
         elma.position = elma.GenerateRandomPos(snake.body);
         running = false;
+        score = 0;
         //exit(1);
     }
     
@@ -201,6 +204,8 @@ int main(){
         ClearBackground(blue);
         DrawRectangleLinesEx(Rectangle{(float)offset-5,(float)offset-5,(float)noktaboyutu* noktsayimi+10,(float)noktaboyutu * noktsayimi + 10 }, 5, green);
         game.Draw();
+        DrawText("hello world", offset - 5, 20, 40, green);
+        DrawText(TextFormat("%i", game.score), offset - 5, offset + noktaboyutu * noktsayimi + 10, 40, green);
         EndDrawing();
     }
     
