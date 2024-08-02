@@ -1,0 +1,6 @@
+﻿  yilann.cpp
+C:\Users\aljma\Documents\c++ en yani All\yilann\yilann\yilann.cpp(313,72): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\aljma\Documents\c++ en yani All\yilann\yilann\yilann.cpp(313,37): warning C4244: 'bağımsız değişken': 'float' - 'int' dönüşümü; veri kaybı olabilir
+C:\Users\aljma\Documents\c++ en yani All\yilann\yilann\yilann.cpp(317,17): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+C:\Users\aljma\Documents\c++ en yani All\yilann\yilann\yilann.cpp(318,17): warning C4244: 'başlatılıyor': 'int' - 'float' dönüşümü; veri kaybı olabilir
+  yilann.vcxproj -> C:\Users\aljma\Documents\c++ en yani All\yilann\x64\Debug\yilann.exe
