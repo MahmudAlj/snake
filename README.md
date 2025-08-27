@@ -7,26 +7,6 @@ Küçük ama genişletilebilir bir **Snake / Yılan** oyunu. Oyun; `raylib` ve `
 
 ---
 
-## İçerik
-
-- [Özellikler](#özellikler)
-- [Ekran Görüntüsü / Video](#ekran-görüntüsü--video)
-- [Kurulum](#kurulum)
-- [Derleme ve Çalıştırma](#derleme-ve-çalıştırma)
-  - [Windows (MSVC / Visual Studio)](#windows-msvc--visual-studio)
-  - [Windows (MinGW-w64)](#windows-mingw-w64)
-  - [Linux (gcc/clang)](#linux-gcclang)
-  - [macOS (clang/Homebrew)](#macos-clanghomebrew)
-- [Oynanış](#oynanış)
-- [Kontroller](#kontroller)
-- [Yapılandırma / Ayarlar](#yapılandırma--ayarlar)
-- [Proje Yapısı](#proje-yapısı)
-- [Sık Karşılaşılan Sorunlar](#sık-karşılaşılan-sorunlar)
-- [Geliştirme Notları ve Yol Haritası](#geliştirme-notları-ve-yol-haritası)
-- [Lisans](#lisans)
-
----
-
 ## Özellikler
 
 - Raylib ile pencereli oyun döngüsü
@@ -37,12 +17,6 @@ Küçük ama genişletilebilir bir **Snake / Yılan** oyunu. Oyun; `raylib` ve `
 - Basit skor yazımı ve oyun alanı çerçevesi
 
 `snake.cpp`’de kenar çarpışmaları, **ızgara boyutu (`noktsayimi`)** üzerinden doğru şekilde kontrol edilir. `yilann.cpp`’de eski bir varyantta hatalı olarak hücre pikseli (`noktaboyutu`) ile karşılaştırma yapılmıştı; bu sürümde düzeltilmiştir.
-
-
-## Ekran Görüntüsü / Video
-
-Henüz ekli değil. İsterseniz bir GIF/MP4 ekleyin.
-
 
 ## Kurulum
 
