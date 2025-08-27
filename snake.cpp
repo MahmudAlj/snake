@@ -3,18 +3,6 @@
 #include <deque>
 #include <raymath.h>
 
-//1. Creating a blank canvas 8 Game Loop tamam 
-//2. Creating the Food tamam
-//3. Creating the Snake tamam
-//4. Moving the Snake 
-//5. Making the Snake eat the Food
-//6. Making the Snake grow longer
-//7. Checking for collision with edges 8 kail
-//8. Adding kitle 8 frame
-//9. Keeping score
-//10. Adding sounds
-
-
 Color blue = { 151 ,255 ,255 ,255 };
 Color green = { 0, 0, 0, 255 };
 
